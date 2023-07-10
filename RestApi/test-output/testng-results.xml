@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-05T17:14:36 IST" name="Default suite" finished-at="2023-07-05T17:14:44 IST" duration-ms="7271">
+    <groups>
+    </groups>
+    <test started-at="2023-07-05T17:14:36 IST" name="Default test" finished-at="2023-07-05T17:14:44 IST" duration-ms="7271">
+      <class name="Restasuree.RestApi.BarerToken">
+        <test-method signature="token()[pri:1, instance:Restasuree.RestApi.BarerToken@64cd705f]" started-at="2023-07-05T17:14:36 IST" name="token" finished-at="2023-07-05T17:14:41 IST" duration-ms="4642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- token -->
+        <test-method signature="res()[pri:2, instance:Restasuree.RestApi.BarerToken@64cd705f]" started-at="2023-07-05T17:14:41 IST" name="res" finished-at="2023-07-05T17:14:42 IST" depends-on-methods="Restasuree.RestApi.BarerToken.token" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- res -->
+        <test-method signature="Getorderdetail()[pri:3, instance:Restasuree.RestApi.BarerToken@64cd705f]" started-at="2023-07-05T17:14:42 IST" name="Getorderdetail" finished-at="2023-07-05T17:14:44 IST" depends-on-methods="Restasuree.RestApi.BarerToken.res, Restasuree.RestApi.BarerToken.token" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getorderdetail -->
+      </class> <!-- Restasuree.RestApi.BarerToken -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
