@@ -1,0 +1,25 @@
+package Myproject.practiceing;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Switchclass {
+public static WebDriver d;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ChromeOptions options=new ChromeOptions();
+		options.addArguments("--disable-notifications");
+		
+		WebDriverManager.chromedriver().setup();
+	d=new ChromeDriver(options);
+	d.manage().window().maximize();
+	d.get("http://www.uitestpractice.com/");
+	Switchpage.select.click();
+	Switchpage.test();
+	Switchpage.country.click();
+	}
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="Actitime.TestCases.ActitimeTestcases">
+        <methods>
+          <include name="close_the_browser"/>
+          <include name="validate_Login_with_click_enter"/>
+          <include name="Validate_Login_logout_login_when_Click_on_Keepme_looged_checkbox"/>
+          <include name="browserLunch"/>
+          <include name="Validate_login_btn"/>
+          <include name="inValidPassword" invocation-numbers="0 1 2"/>
+          <include name="validate_multitime_login_logout"/>
+        </methods>
+      </class> <!-- Actitime.TestCases.ActitimeTestcases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
